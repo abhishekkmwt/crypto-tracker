@@ -1,0 +1,189 @@
+.grid-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkgrey);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--darkgrey);
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.grid-flex:hover{
+    border: 2px solid var(--green);
+    scale: 1;
+    transition: all .3s;
+    transform: scale(1.02);
+}
+
+
+.grid-flex-red{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkgrey);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--darkgrey);
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.grid-flex-red:hover{
+    border: 2px solid var(--red);
+    transition: all .3s;
+    transform: scale(1.02);
+}
+
+.img-name{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.img-name img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.symbol-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .75rem;
+}
+
+.symbol-name h3{
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.symbol-name h5{
+    font-weight: 400;
+    color: var(--grey);
+    padding: 0;
+    margin: 0;
+}
+
+.price_change_percentage_24h{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.price_change_percentage_24h-green{ 
+    font-size: 1rem;
+    border: 2px solid var(--green);
+    padding: .6rem 1.3rem;
+    border-radius: 2rem;
+    min-width: 50px;
+    color: var(--green);
+}
+
+.price_change_percentage_24h-green:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.price_change_percentage_24h-red{ 
+    font-size: 1rem;
+    border: 2px solid var(--red);
+    padding: .6rem 1.3rem;
+    border-radius: 2rem;
+    min-width: 50px;
+    color: var(--red);
+}
+
+.price_change_percentage_24h-red:hover{
+    background-color: var(--red);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.icon-green{
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    color: var(--green);
+    font-size: 1rem;
+}
+
+.icon-green:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.icon-red{
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    color: var(--red);
+    font-size: 1rem;
+}
+
+.icon-red:hover{
+    background-color: var(--red);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.price-green{
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.price-red{
+    color: var(--red);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.volume-marketcap{
+    color: var(--grey);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.volume-marketcap span{
+    font-weight: 400;
+}
+
+@media only screen and (max-width:800px) {
+    .grid-flex,.grid-flex-red{
+        padding: 2rem 5rem;
+        width: 80%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .grid-flex,.grid-flex-red{
+        padding: 2rem 3rem;
+        width: 80%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .grid-flex,.grid-flex-red{
+        padding: 2rem 2rem;
+        width: 80%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

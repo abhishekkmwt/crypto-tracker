@@ -1,0 +1,331 @@
+.landing-page-container{
+    display: flex;
+    justify-content:flex-start ;
+    padding: 2rem 3.1rem;
+    
+}
+.left-landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.track-heading, .real-time-heading{
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.track-heading{
+    -webkit-text-stroke-width: 2px;   
+    -webkit-text-stroke-color: var(--white); 
+}
+
+.real-time-heading{
+    color: var(--pink);
+}
+
+.track-heading:hover{
+    color: var(--black);
+    transition: all 0.3s;
+}
+
+.crypto-track-detail{
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.right-landing-page{
+    position: relative;
+    width: 50%;
+    
+}
+
+.gradient{
+    position: absolute;
+    right:2rem;
+    width: 30%;
+    top: 6rem;
+    min-width: 225px;
+}
+
+.iphone{
+    position: absolute;
+    z-index: 100;
+    width: 40%;
+    right: 2rem;
+    min-width: 270px;
+}
+
+
+@media only screen and (max-width:1325px) {
+    .track-heading, .real-time-heading{
+        font-size: 5.5rem;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media only screen and (max-width:1225px) {
+    .track-heading, .real-time-heading{
+        font-size: 5rem;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.8rem;
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 205px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width:1125px) {
+    .track-heading, .real-time-heading{
+        font-size: 4.8rem;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.8rem;
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 205px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 250px;
+    }
+}
+
+
+@media only screen and (min-device-width:800px) and (max-device-width:879px) {
+    .track-heading, .real-time-heading{
+        font-size: 4.2rem;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.75rem;
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 205px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 250px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+
+    .landing-page-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .left-landing-page{
+        width: 100%;
+    }
+
+    .track-heading, .real-time-heading{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
+    .crypto-track-detail{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .btn1{
+        justify-content: center;
+    }
+
+    .right-landing-page{
+        width: 100%;
+        right: 25%;
+        
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 215px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 260px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    .landing-page-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .left-landing-page{
+        width: 100%;
+    }
+
+    .track-heading, .real-time-heading{
+        font-size: 4.2rem;
+        text-align: center;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .btn1{
+        justify-content: center;
+    }
+
+    .right-landing-page{
+        width: 100%;
+        right: 20%;
+        
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 215px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 260px;
+    }
+}
+
+
+
+@media only screen and (max-width:550px) {
+
+    .landing-page-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .left-landing-page{
+        width: 100%;
+    }
+
+    .track-heading, .real-time-heading{
+        font-size: 3.8rem;
+        text-align: center;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .btn1{
+        justify-content: center;
+    }
+
+    .right-landing-page{
+        width: 100%;
+        right: 25%;
+        
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 175px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 215px;
+    }
+}
+
+@media only screen and (max-width:490px) {
+
+    .landing-page-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .left-landing-page{
+        width: 100%;
+    }
+
+    .track-heading, .real-time-heading{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .crypto-track-detail{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .btn1{
+        justify-content: center;
+    }
+
+    .right-landing-page{
+        width: 100%;
+        right: 12%;
+        
+    }
+
+    .gradient{
+        width: 30%;
+        top: 6rem;
+        min-width: 175px;
+    }
+    
+    .iphone{
+        width: 40%;
+        right: 2rem;
+        min-width: 215px;
+    }
+}

@@ -1,0 +1,162 @@
+.list-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 3rem;
+    cursor: pointer;
+    gap: 1rem;
+    transition: transform 0.3s;
+}
+
+.list-row:hover{
+    background-color: var(--darkgrey);
+    border-radius: 1rem;
+    transition: all .3s;
+    transform: scale(1.02);
+}
+
+.symbol-size{
+    font-size: 1.2rem !important;
+}
+
+.list-row td{
+    text-align: left;
+    width: 14%;
+}
+
+.mobile-volume{
+    display: none !important;
+}
+.mobile-marketcap{
+    display: none !important;
+}
+
+@media only screen and (min-width:950px) and (max-width:1000px) {
+    .icon-1{
+        display: none;
+    }
+
+    .symbol-size{
+        font-size: 1rem !important;
+    }
+
+    .coin-name-size{
+        font-size: .8rem !important;
+    }
+
+    .list-row .icon-2{
+        font-size: 0.9rem;
+    }
+
+    .list-row td{
+        text-align: left;
+        width: 12%;
+        font-size: 0.9rem;
+    }
+
+    .mobile-volume{
+        display: block !important;
+        color: var(--grey);
+    }
+    
+    .mobile-marketcap{
+        display: block !important;
+        color: var(--grey);
+    }
+
+    .desktop-volume{
+        display: none !important;
+    }
+
+    .desktop-marketcap{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width:850px) {
+    .icon-1{
+        display: none;
+    }
+
+    .symbol-size{
+        font-size: 0.8rem !important;
+    }
+
+    .coin-name-size{
+        font-size: .6rem !important;
+    }
+
+    .list-row .icon-2{
+        font-size: 0.6rem;
+    }
+
+    .list-row td{
+        text-align: left;
+        width: 17%;
+        font-size: 0.6rem;
+    }
+
+    .mobile-volume{
+        display: block !important;
+        color: var(--grey);
+    }
+    
+    .mobile-marketcap{
+        display: none !important;
+        color: var(--grey);
+    }
+
+    .desktop-volume{
+        display: none !important;
+    }
+
+    .desktop-marketcap{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width:850px) and (max-width:950px) {
+    .icon-1{
+        display: none;
+    }
+
+    .symbol-size{
+        font-size: 1rem !important;
+    }
+
+    .coin-name-size{
+        font-size: .8rem !important;
+    }
+
+    .list-row .icon-2{
+        font-size: 0.8rem;
+    }
+
+    .list-row td{
+        text-align: left;
+        width: 12%;
+        font-size: 0.8rem;
+    }
+
+    .mobile-volume{
+        display: block !important;
+        color: var(--grey);
+    }
+    
+    .mobile-marketcap{
+        display: none;
+    }
+
+    .desktop-volume{
+        display: none;
+    }
+
+    .desktop-marketcap{
+        display: none;
+    }
+    
+
+}

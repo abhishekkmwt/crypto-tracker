@@ -1,0 +1,14 @@
+.footer{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem 3rem;
+    background-color: var(--pink);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer span{
+    color: var(--black);
+}

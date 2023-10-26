@@ -1,0 +1,9 @@
+.select-days{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#demo-simple-select-label{
+    color: var(--white);
+}

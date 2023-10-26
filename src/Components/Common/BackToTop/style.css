@@ -1,0 +1,41 @@
+.back-to-top-true{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    right:4rem;
+    bottom: 2rem;
+    border: 2px solid var(--pink);
+    color:  var(--pink);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.back-to-top-true:hover{
+    background-color: var(--pink);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+.back-to-top-false{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    right:4rem;
+    bottom: 2rem;
+    border: 2px solid var(--pink);
+    color:  var(--pink);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.back-to-top-false:hover{
+    background-color: var(--pink);
+    color: var(--white);
+    transition: all 0.3s;
+}

@@ -1,0 +1,31 @@
+.btn{
+    background-color: var(--pink);
+    color: var(--white);
+    min-width: 120px;
+    text-align: center;
+    padding: .6rem .8rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    box-shadow: 0 5px 15px rgba(202,44,146,.4);
+    transition: all .3s;
+}
+
+.outlined-btn{
+    background-color: var(--black);
+    color: var(--white);
+    min-width: 120px;
+    text-align: center;
+    padding: .6rem .8rem;
+    border-radius: 1.2rem;
+    border: 2px solid var(--pink);
+    cursor: pointer;
+}
+
+.outlined-btn:hover{
+    background-color: var(--pink);
+    transition: all .3s;
+}

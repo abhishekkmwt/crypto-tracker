@@ -1,0 +1,10 @@
+.description a{
+    color: var(--white);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.description a:hover{
+    color: var(--pink);
+    transition: all .3s;
+}
