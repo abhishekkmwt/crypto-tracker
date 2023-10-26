@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCoins } from "./../../../crypto-project/src/redux/actions/coinsAction";
+import { fetchCoins } from "./../redux/actions/coinsAction";
 import { setWatchlist } from '../redux/actions/watchlistAction';
 import Loader from '../Components/Common/Loader';
 import Header from '../Components/Common/Header';
